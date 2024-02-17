@@ -1,6 +1,6 @@
 # Kubernetes Cluster Setup with KIND
 
-This project provides a set of scripts to easily create and destroy Kubernetes clusters using KIND (Kubernetes IN Docker), which allows for running Kubernetes clusters within Docker containers. It's an excellent way to set up isolated Kubernetes environments for development and testing.
+This project provides a script to easily create and destroy Kubernetes clusters using KIND (Kubernetes IN Docker), which allows for running Kubernetes clusters within Docker containers. It's an excellent way to set up isolated Kubernetes environments for development and testing.
 
 ## Prerequisites
 
@@ -17,4 +17,10 @@ Before you can run the scripts, you need to have the following installed:
    ```sh
    git clone <repository-url>
    cd <repository-folder>
+   chmod +x kind-create.sh
+   ./kind-create.sh create myfirstcluster
+   ./kind-create.sh destroy myfirstcluster
+   
+   
 
+<img width="1382" alt="image" src="https://github.com/iflan7744/kind_cluster/assets/55939511/fdadfbbf-e825-4d5b-beb4-ac4070dcb2b7">
