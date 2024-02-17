@@ -7,7 +7,7 @@ This project provides a script to easily create and destroy Kubernetes clusters 
 Before you can run the scripts, you need to have the following installed:
 
 - Docker Desktop: Ensure Docker is installed and running on your machine. These scripts check for Docker's availability before attempting to create or destroy a Kubernetes cluster.
-- KIND: KIND must be installed. KIND is a tool for running local Kubernetes clusters using Docker container "nodes".
+- [KIND](https://kind.sigs.k8s.io/): KIND must be installed. KIND is a tool for running local Kubernetes clusters using Docker container "nodes".
 - Kubernetes CLI (kubectl): Although not directly required by the scripts, `kubectl` is useful for interacting with your KIND clusters once they are up and running.
 
 ## Getting Started
@@ -15,8 +15,8 @@ Before you can run the scripts, you need to have the following installed:
 1. **Clone the Repository**: First, clone this repository to your local machine to get started.
 
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone git@github.com:iflan7744/kind_cluster.git
+   cd kind_cluster
    chmod +x kind-create.sh
    ./kind-create.sh create myfirstcluster
    ./kind-create.sh destroy myfirstcluster
