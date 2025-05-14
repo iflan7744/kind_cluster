@@ -1,5 +1,12 @@
 # Kubernetes Cluster Setup with KIND + Local Docker Registry
 
+[![Stars](https://img.shields.io/github/stars/iflan7744/kind_cluster?style=social)](https://github.com/iflan7744/kind_cluster/stargazers)
+[![Shell Lint](https://img.shields.io/badge/shellcheck-passing-brightgreen)](https://github.com/koalaman/shellcheck)
+![kind_cluster](https://github.com/user-attachments/assets/ae468c9d-0699-4a21-9c27-f5e8238f6b7e)
+![](https://github.com/iflan7744/kind_cluster#:~:text=42%20minutes%20ago-,kind_cluster.png,-Add%20files%20via)
+
+
+
 This project ships a **one‑click script** that spins up / tears down an isolated Kubernetes **Kind** cluster **and** a co‑located **Docker registry** (`kind-registry`) so you can push images at `localhost:5000/...` without leaving your laptop. Perfect for:
 
 * Local development & iterative testing
