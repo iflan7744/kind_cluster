@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ----------------------------------------------------------------------------
-# kind_cluster_manager.sh - Manage local Kind clusters backed by a private
+# kind-create.sh          - Manage local Kind clusters backed by a private
 #                           Docker registry.
 #
 # USAGE:
